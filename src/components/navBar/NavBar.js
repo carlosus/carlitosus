@@ -1,19 +1,27 @@
 import React from 'react';
 import styles from './NavBar.css';
+import githubIcon from '../../assets/githubIcon.png';
+import linkedinIcon from '../../assets/linkedinIcon.png';
 
 function NavBar() {
   return (
-    <div className={styles.navContainer}>
-      <div>
-        C
+    <header>
+      <div className={styles.container}>
+        <nav>
+          <div className={styles.logo}>
+            C
+          </div>
+          <div className={styles.icons}>
+            <div>
+              <img src={githubIcon} />
+            </div>
+            <div>
+              <img src={linkedinIcon} />
+            </div>
+          </div>
+        </nav>
       </div>
-      <div>
-        -
-      </div>
-      <div>
-        icons
-      </div>
-    </div>
+    </header>
   );
 }
 

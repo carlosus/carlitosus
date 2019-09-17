@@ -1,23 +1,20 @@
 import React from 'react';
-import styles from './Intro.css';
-import downArrows from '../../assets/down-arrows.png';
+import styles from './Landing.css';
 
-function Intro() {
+export default function Landing() {
   const name = 'carlos \n us santiago';
 
   return (
     <>
     <div className={styles.container}>
-      <div >
+      <div className={styles.text}>
         <h1 className={styles.name}>{name}</h1>
       </div>
-      <div className={styles.arrows}>
-        <img src={downArrows}/>
+      <div className={styles.message}>
+        <h3>Under Construction</h3>
       </div>
     </div>
-    
     </>
   );
 }
 
-export default Intro;

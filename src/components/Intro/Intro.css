@@ -8,6 +8,8 @@ body {
   display: flex;
   margin-left: 100px;
   border: solid 1px orange;
+  height: 100vh;
+  width: 100vw
 }
 
 .name {
@@ -18,4 +20,13 @@ body {
   text-align: right;
   margin-left: auto;
   white-space: pre-line;
+}
+
+img {
+  width: 140px;
+  position: absolute;
+}
+
+.arrows {
+  position: absolute;
 }

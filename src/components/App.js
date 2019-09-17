@@ -5,12 +5,18 @@ import {
 } from 'react-router-dom';
 import Home from '../containers/Home';
 import NavBar from './navBar/NavBar';
+import Landing from './landing/Landing';
 
 export default function App() {
   return (
-    <Router>
-      <NavBar />
-      <Route exact path="/" component={Home}/>
-    </Router>
+    <>
+    <Landing />
+  
+    </>
   );
 }
+
+{/* // <Router>
+   
+    //   <Route exact path="/" component={Home}/>
+    // </Router> */}
