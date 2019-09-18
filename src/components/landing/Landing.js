@@ -16,7 +16,7 @@ export default function Landing() {
         <h3>UNDER CONSTRUCTION</h3>
       </div>
       <div className={styles.icons}>
-        <a href="https://www.linkedin.com/in/carlosuss/">
+        <a href="https://www.linkedin.com/in/carlosuss/" target="_blank">
           <img src={linkedin} alt="linkedin" />
         </a>
         <a href="https://github.com/carlosus">
