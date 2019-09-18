@@ -13,7 +13,7 @@ export default function Landing() {
         <h1 className={styles.name}>{name}</h1>
       </div>
       <div className={styles.message}>
-        <h3>Under Construction</h3>
+        <h3>UNDER CONSTRUCTION</h3>
       </div>
       <div className={styles.icons}>
         <a href="https://www.linkedin.com/in/carlosuss/">
