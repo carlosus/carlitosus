@@ -28,6 +28,7 @@ main {
   background: url(https://media.giphy.com/media/xThuWlT47FLpqr1giY/source.gif);
   background-size: contain;
   background-position: top left;
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   font-size: 2rem;
