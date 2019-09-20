@@ -19,7 +19,7 @@ export default function Landing() {
         <a href="https://www.linkedin.com/in/carlosuss/" target="_blank">
           <img src={linkedin} alt="linkedin" />
         </a>
-        <a href="https://github.com/carlosus">
+        <a href="https://github.com/carlosus" target="_blank">
           <img src={github} alt="github" />
         </a>
       </div>
