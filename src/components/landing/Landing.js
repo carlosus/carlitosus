@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Landing.css';
-import linkedin from '../../assets/linkedin-white.png'
-import github from '../../assets/github-white.png'
+import linkedin from '../../assets/linkedin-white.png';
+import github from '../../assets/github-white.png';
 
 export default function Landing() {
   const name = 'carlos \n us santiago';
@@ -16,10 +16,10 @@ export default function Landing() {
         <h3>UNDER CONSTRUCTION</h3>
       </div>
       <div className={styles.icons}>
-        <a href="https://www.linkedin.com/in/carlosuss/" target="_blank">
+        <a href="https://www.linkedin.com/in/carlosuss/" target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt="linkedin" />
         </a>
-        <a href="https://github.com/carlosus" target="_blank">
+        <a href="https://github.com/carlosus" target="_blank" rel="noopener noreferrer">
           <img src={github} alt="github" />
         </a>
       </div>
